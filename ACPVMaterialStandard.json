@@ -1,0 +1,38 @@
+{
+   "name":"ACPV Material Standard",
+   "children":[
+      {
+         "name":"CE.00: Ceramic",
+         "children":[
+            {
+               "name":"CE.01: Porcelain Stoneware",
+               "children":[
+                  {
+                     "name":"CE.01.01: Porcelain Stoneware - Dark Grey - Matte"
+                  },
+                  {
+                     "name":"CE.01.02: Porcelain Stoneware - Dark Grey - Engraved (Special Finish)"
+                  },
+                  {
+                     "name":"CE.01.03: Porcelain Mosaic - 10mm x 10mm"
+                  }
+               ]
+            },
+            {
+               "name":"CE.02: Laminated Stoneware",
+               "children":[
+                  {
+                     "name":"CE.02.01: Laminated Stoneware - Dark Grey"
+                  }
+               ]
+            },
+            {
+               "name":"CE.03: Glazed Ceramic"
+            },
+            {
+               "name":"CE.04: Terracotta"
+            }
+         ]
+      }
+   ]
+}
