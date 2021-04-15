@@ -33,6 +33,516 @@
                "name":"CE.04: Terracotta"
             }
          ]
-      }
-   ]
+      },
+      {
+         "name":"CF.00: Composite",
+         "children":[
+            {"name":"CF.01: Glass Fiber Composite",
+               "children":[{"name":"CF.01.01: Glass-Fiber Reinforced Plastic (GFRP)"}
+							]
+			},
+			{"name":"CF.02: Carbon Fiber Composite"},
+            {"name":"CF.03: Multimaterial"
+            }
+			]
+		},
+            {
+          "name":"CL.00: Clay - Generic"
+				"children":[
+            {
+               "name":"CL.01: Clay Brick"
+            },
+            {
+               "name":"CL.02: Clay Block"
+            },
+            {
+               "name":"CL.03: Clay Construction",
+               "children":[
+                  {
+                     "name":"CL.03.01: Adobe"
+                  }
+               ]
+            },
+			]
+			},
+            {"name":"CM.00: Cement and Binder - Generic",
+               "children":[
+                  {
+                     "name":"CM.01: Plaster",
+                     "children":[
+                        {
+                           "name":"CM.01.01: Stucco"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {"name":"CM.02: Screed"
+            },
+            {
+               "name":"CO.00: Concrete - Generic",
+               "children":[
+                  {
+                     "name":"CO.01: Cast-in-Place Concrete",
+                     "children":[
+                        {
+                           "name":"CO.01.01: Cast-in-Place Concrete Flooring - Brushed"
+                        }
+                     ]
+                  },
+                  {
+                     "name":"CO.02: Reinforced Concrete"
+                  },
+                  {
+                     "name":"CO.03: Precast Concrete"
+                  },
+                  {
+                     "name":"CO.04: GRC - Fiber Reinforced Concrete"
+                  },
+                  {
+                     "name":"CO.05: Blockwork Concrete",
+                     "children":[
+                        {
+                           "name":"CO.05.01: Lightweight Concrete Blockwork"
+                        }
+                     ]
+                  },
+                  {
+                     "name":"CO.06: Decorative"
+                  },
+                  {
+                     "name":"CO.07: UHPC"
+                  },
+                  {
+                     "name":"CO.08: Concrete Brick"
+                  },
+                  {
+                     "name":"FB.00: Fabric and Textile - Generic",
+                     "children":[
+                        {
+                           "name":"FB.01: Cotton"
+                        },
+                        {
+                           "name":"FB.02: Wool",
+                           "children":[
+                              {
+                                 "name":"FB.02.01: Wool Carpet, Barcode"
+                              }
+                           ]
+                        },
+                        {
+                           "name":"FB.03: Silk"
+                        },
+                        {
+                           "name":"FB.04: Synthetic"
+                        },
+                        {
+                           "name":"FB.05: Linen"
+                        },
+                        {
+                           "name":"FB.06: Rattan"
+                        },
+                        {
+                           "name":"GA.00: Cavity Air - Generic"
+                        },
+                        {
+                           "name":"GL.00: Glass - Generic",
+                           "children":[
+                              {
+                                 "name":"GL.01: Transparent Glass Generic",
+                                 "children":[
+                                    {
+                                       "name":"GL.01.01: Low-iron Glass"
+                                    },
+                                    {
+                                       "name":"GL.01.02: Clear Glass"
+                                    },
+                                    {
+                                       "name":"GL.01.03: Bronzed coated Glass"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name":"GL.E.01: Transparent Glass, Facade"
+                              },
+                              {
+                                 "name":"GL.02: Back Painted Glass"
+                              },
+                              {
+                                 "name":"GL.03: Mirror"
+                              },
+                              {
+                                 "name":"GL.04: Fritted Glass"
+                              },
+                              {
+                                 "name":"GL.05: Body-tinted Glass"
+                              },
+                              {
+                                 "name":"GL.06: Assembled Glasses"
+                              },
+                              {
+                                 "name":"GL.07: Acid-etched Glass"
+                              },
+                              {
+                                 "name":"GL.08: Channel Glass"
+                              },
+                              {
+                                 "name":"GL.09: Glass Bricks"
+                              },
+                              {
+                                 "name":"GL.10: Crystal Glass"
+                              },
+                              {
+                                 "name":"GL.11: Smart Glass"
+                              },
+                              {
+                                 "name":"GL.11.01: Light-emitting"
+                              },
+                              {
+                                 "name":"GL.11.02: Switchable"
+                              },
+                              {
+                                 "name":"GN.00: Massing - Generic",
+                                 "children":[
+                                    {
+                                       "name":"GN.01: Trasparent"
+                                    },
+                                    {
+                                       "name":"GN.02: White"
+                                    },
+                                    {
+                                       "name":"GN.03: Grey",
+                                       "children":[
+                                          {
+                                             "name":"GN.03.01: Light Grey"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name":"GN.04: Blue"
+                                    },
+                                    {
+                                       "name":"GN.05: Mustard"
+                                    },
+                                    {
+                                       "name":"GN.06: Peach"
+                                    },
+                                    {
+                                       "name":"GY.00: Gypsum-Based Material - Generic",
+                                       "children":[
+                                          {
+                                             "name":"GY.01: Gypsumboard"
+                                          },
+                                          {
+                                             "name":"IN.00: Insulation - Generic",
+                                             "children":[
+                                                {
+                                                   "name":"IN.01: Acoustic Insulation"
+                                                },
+                                                {
+                                                   "name":"IN.02: Thermal Insulation"
+                                                },
+                                                {
+                                                   "name":"LE.00: Leather - Generic",
+                                                   "children":[
+                                                      {
+                                                         "name":"LE.01: Leather"
+                                                      },
+                                                      {
+                                                         "name":"LE.02: Eco-Leather"
+                                                      },
+                                                      {
+                                                         "name":"LQ.00: Liquid - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"LQ.01: Water"
+                                                            },
+                                                            {
+                                                               "name":"LQ.02: Liquid"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"MB.00: Membrane - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"MB.01: TNT - non woven fabric"
+                                                            },
+                                                            {
+                                                               "name":"MB.02: Waterproofing Membrane"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"MS.00: Miscellaneous - Generic (*)",
+                                                         "children":[
+                                                            {
+                                                               "name":"MS.01: Glue"
+                                                            },
+                                                            {
+                                                               "name":"MS.02: Resin"
+                                                            },
+                                                            {
+                                                               "name":"MS.03: Rubber"
+                                                            },
+                                                            {
+                                                               "name":"MS.04: Mother of Pearl"
+                                                            },
+                                                            {
+                                                               "name":"MS.05: Honeycomb Layer"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"MT.00: Metal - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"MT.01: Steel",
+                                                               "children":[
+                                                                  {
+                                                                     "name":"MT.01.01: Stainless Steel - Brushed"
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name":"MT.02: Aluminum",
+                                                               "children":[
+                                                                  {
+                                                                     "name":"MT.02.01: Anodized Aluminum"
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name":"MT.03: Bronze"
+                                                            },
+                                                            {
+                                                               "name":"MT.04: Copper"
+                                                            },
+                                                            {
+                                                               "name":"MT.05: Brass"
+                                                            },
+                                                            {
+                                                               "name":"MT.06: Cast Iron"
+                                                            },
+                                                            {
+                                                               "name":"MT.07: Titanium"
+                                                            },
+                                                            {
+                                                               "name":"MT.08: Lead"
+                                                            },
+                                                            {
+                                                               "name":"MT.09: Zinc"
+                                                            },
+                                                            {
+                                                               "name":"MT.10: Tin"
+                                                            },
+                                                            {
+                                                               "name":"MT.11: Precious Metal"
+                                                            },
+                                                            {
+                                                               "name":"MT.11.01: Gold"
+                                                            },
+                                                            {
+                                                               "name":"MT.11.01: Silver"
+                                                            },
+                                                            {
+                                                               "name":"MT.12: Composite Metal"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"PL.00: Plastic - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"PL.01: Polycarbonate"
+                                                            },
+                                                            {
+                                                               "name":"PL.02: Polyester"
+                                                            },
+                                                            {
+                                                               "name":"PL.03: PVC (Polyvinyl chloride)"
+                                                            },
+                                                            {
+                                                               "name":"PL.04: Composite"
+                                                            },
+                                                            {
+                                                               "name":"PL.05: Bio-Polymer"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"PT.00: Paint - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"PT.01: Water Based Paint"
+                                                            },
+                                                            {
+                                                               "name":"PT.02: Special Solvent Paint"
+                                                            },
+                                                            {
+                                                               "name":"PT.03: Varnished Paint"
+                                                            },
+                                                            {
+                                                               "name":"PT.04: Powder Coating"
+                                                            },
+                                                            {
+                                                               "name":"PT.05: Acrylic Paint"
+                                                            },
+                                                            {
+                                                               "name":"PT.06: Lacquer"
+                                                            },
+                                                            {
+                                                               "name":"PT.07: Epoxy Paint"
+                                                            },
+                                                            {
+                                                               "name":"PT.08: Bituminous Paint"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"SL.00: Soil - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"SL.01: Soil"
+                                                            },
+                                                            {
+                                                               "name":"SL.01.01: Pebbles"
+                                                            },
+                                                            {
+                                                               "name":"SL.02: Green"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"SS.00: Solid Surface - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"SS.01: Corian"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"ST.00: Stone - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"ST.01: Natural Stone",
+                                                               "children":[
+                                                                  {
+                                                                     "name":"ST.01.01: Limestone"
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name":"ST.02: Marble"
+                                                            },
+                                                            {
+                                                               "name":"ST.03: Granite"
+                                                            },
+                                                            {
+                                                               "name":"ST.04: Artificial Stone",
+                                                               "children":[
+                                                                  {
+                                                                     "name":"ST.04.01: Stoneglass"
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name":"ST.05: Poured Composite Material",
+                                                               "children":[
+                                                                  {
+                                                                     "name":"ST.05.01: Terrazzo"
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name":"ST.06: Travertine"
+                                                            },
+                                                            {
+                                                               "name":"ST.07: Precious/Semiprecious Stone"
+                                                            },
+                                                            {
+                                                               "name":"ST.08: Quarzite"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"WC.00: Wallpaper and Wallcovering - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"WC.01: Vinyl Wallpaper"
+                                                            },
+                                                            {
+                                                               "name":"WC.02: Natural Wallpaper"
+                                                            },
+                                                            {
+                                                               "name":"WC.03: Textile Wallpaper"
+                                                            },
+                                                            {
+                                                               "name":"WC.04: Paper Wallpaper"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name":"WD.00: Wood - Generic",
+                                                         "children":[
+                                                            {
+                                                               "name":"WD.01: Composite - Generic"
+                                                            },
+                                                            {
+                                                               "name":"WD.02: Oak"
+                                                            },
+                                                            {
+                                                               "name":"WD.03: Teak"
+                                                            },
+                                                            {
+                                                               "name":"WD.04: Elm"
+                                                            },
+                                                            {
+                                                               "name":"WD.05: Ash"
+                                                            },
+                                                            {
+                                                               "name":"WD.06: Walnut"
+                                                            },
+                                                            {
+                                                               "name":"WD.07: Maple"
+                                                            },
+                                                            {
+                                                               "name":"WD.08: Larch"
+                                                            },
+                                                            {
+                                                               "name":"WD.09: Beech"
+                                                            },
+                                                            {
+                                                               "name":"WD.10: Rosewood"
+                                                            },
+                                                            {
+                                                               "name":"WD.11: Bamboo"
+                                                            },
+                                                            {
+                                                               "name":"WD.12: Birch"
+                                                            },
+                                                            {
+                                                               "name":"WD.13: Cork"
+                                                            },
+                                                            {
+                                                               "name":"WD.14: Ebony"
+                                                            },
+                                                            {
+                                                               "name":"WD.15: Pearwood"
+                                                            },
+                                                            {
+                                                               "name":"WD.16: Eucalyptus"
+                                                            },
+                                                            {
+                                                               "name":"WD.17: Cedar"
+                                                            },
+                                                         ]
+                                                      },
+                                                   ]
+                                                },
+                                             ]
+                                          },
+                                       ]
+                                    },
+]
 }
